@@ -2,8 +2,8 @@
 
 clear
 
-conda create --name "graph2" --file "env_setup.txt"
-source activate "graph2"
+conda create --name "graph" --file "env_setup.txt"
+source activate "graph"
 wget "https://downloads.skewed.de/graph-tool/graph-tool-2.26.tar.bz2"
 tar -xvjf "graph-tool-2.26.tar.bz2"
 cd graph-tool-2.26/
